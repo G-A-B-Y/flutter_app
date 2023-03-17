@@ -1,0 +1,55 @@
+name: login_screen
+description: A new Flutter project.
+
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter  
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  flutter_native_splash: ^2.2.18
+  get: ^4.6.5
+  liquid_swipe: ^3.0.0
+  smooth_page_indicator: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter_native_splash:
+  color: "#f7f6f1"
+  color_dark: "#272727"
+  image: A:/flutter_login/login_screen/lib/assets1/images/burger.jpg,A:/flutter_login/login_screen/lib/assets1/images/books.jpg
+  image_dark: A:/flutter_login/login_screen/lib/assets1/images/burger.jpg,A:/flutter_login/login_screen/lib/assets1/images/books.jpg
+
+
+  android_12:
+    image: A:\flutter_login\login_screen\lib\assets1\images\burger.jpg,A:\flutter_login\login_screen\lib\assets1\images\books.jpg
+    icon_background_color: "#f7f6f1"
+    image_dark: A:\flutter_login\login_screen\lib\assets1\images\burger.jpg,A:\flutter_login\login_screen\lib\assets1\images\books.jpg
+    icon_background_color_dark: "#272727"
+
+  
+
+
+flutter:
+
+  uses-material-design: true
+  assets: 
+    - assets/assets1/images/
+    - assets/assets1/images/on_boarding_images/
+    - assets/assets1/logos/
+
+
+ 
