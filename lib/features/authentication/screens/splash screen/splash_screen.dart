@@ -21,14 +21,14 @@ final SplashController = Get.put(SplashScreenController());
       body: Stack (
           children:    [
             
-              Obx( () => AnimatedPositioned(
-             duration: const Duration(milliseconds: 1600),
-             top: SplashController.animate.value ? 0 : -30, 
-             left:  SplashController.animate.value ? 0 : -30,
-             child:  const Image(
-              image:AssetImage(tSplashTopIcon)),
-         ),
-              ),
+        //      Obx( () => AnimatedPositioned(
+       //      duration: const Duration(milliseconds: 1600),
+         //    top: SplashController.animate.value ? 0 : -30, 
+           //  left:  SplashController.animate.value ? 0 : -30,
+           //  child:  const Image(
+             // image:AssetImage(tSplashTopIcon)),
+         //),
+             // ),
 
 
 

@@ -1,5 +1,5 @@
 //SPLASH SCREEN
-const String tSplashTopIcon = "assets/assets1/images/books.jpg";
+//const String tSplashTopIcon = "assets/assets1/images/books.jpg";
 const String tSplashImage = "assets/assets1/images/coder.jpg";
 
 //ON BOARDING IMAGES
